@@ -1,0 +1,11 @@
+.appointment-section {
+  min-height: calc(100vh - 100px); /* Adjust the height dynamically based on viewport height */
+  /* Subtracting the height of the footer and any other fixed elements */
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .appointment-section {
+    min-height: auto; /* Reset height on small screens to allow content to expand */
+  }
+}

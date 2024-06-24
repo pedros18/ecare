@@ -1,0 +1,48 @@
+/* DoctorsCarousel.css */
+
+/* Card container */
+.doctor-card {
+    min-width: 150px; /* Set card width */
+    max-width: 270px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card image */
+  .doctor-card .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Card body */
+  .doctor-card .card-body {
+    padding: 20px;
+  }
+  
+  /* Card title */
+  .doctor-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Card text */
+  .doctor-card .card-text {
+    margin-bottom: 5px;
+  }
+  
+  /* Slick carousel dots */
+  .slick-dots li button::before {
+    font-size: 14px;
+    color: #000; /* Change color of dots */
+  }
+  
+  /* Active dot */
+  .slick-dots li.slick-active button::before {
+    color: #007bff; /* Change color of active dot */
+  }
+ 
+  
+  
+  
+  

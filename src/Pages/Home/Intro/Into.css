@@ -1,0 +1,49 @@
+/* Add this to your CSS file */
+.container-intro {
+    max-width: 800px;
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px; /* Optional padding */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition for container */
+  }
+  
+  .container-intro:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Transition for image */
+  }
+  
+  .img-fluid:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .text-primary {
+    color: #007bff;
+    transition: color 0.3s ease-in-out; /* Transition for text */
+  }
+  
+  .text-primary:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .fw-bold {
+    font-weight: 700;
+  }
+  
+  .fs-6 {
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out; /* Transition for text */
+  }
+  
+  .fs-6:hover {
+    color: #333; /* Darker color on hover */
+  }
+  

@@ -1,0 +1,32 @@
+.footer {
+  background-color: #226877;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center; 
+}
+
+.icon-link {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+  color: #ccc;
+}
+
+.logo {
+  width: 300px;
+}
+
+.footer-bottom {
+  background-color: #1a4d55;
+  color: #fff;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .logo {
+    width: 150px; 
+  }
+}
